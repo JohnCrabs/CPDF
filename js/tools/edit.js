@@ -22,7 +22,7 @@
 
   PDFTools.register(
     {
-      id: 'edit', icon: 'edit', color: '#6e56cf', category: 'Edit', href: 'editor.html', isNew: true,
+      id: 'edit', icon: 'edit', color: '#6e56cf', category: 'Edit', href: 'editor.html',
       name: { en: 'Edit PDF', el: 'Επεξεργασία PDF' },
       desc: { en: 'Change existing text, or add text, drawings, highlights, shapes and images.', el: 'Αλλάξτε το υπάρχον κείμενο ή προσθέστε κείμενο, σχέδια, επισημάνσεις, σχήματα και εικόνες.' },
     },
@@ -122,7 +122,7 @@
       },
     },
     {
-      id: 'fill-form', icon: 'form', color: '#7c3aed', category: 'Edit', isNew: true,
+      id: 'fill-form', icon: 'form', color: '#7c3aed', category: 'Edit',
       name: { en: 'Fill PDF form', el: 'Συμπλήρωση φόρμας' },
       desc: { en: 'Fill in the fields of a PDF form and optionally lock them.', el: 'Συμπληρώστε τα πεδία μιας φόρμας PDF και, αν θέλετε, κλειδώστε τα.' },
       action: { en: 'Save form', el: 'Αποθήκευση φόρμας' },
@@ -154,7 +154,7 @@
       },
     },
     {
-      id: 'flatten', icon: 'layers', color: '#475569', category: 'Edit', isNew: true,
+      id: 'flatten', icon: 'layers', color: '#475569', category: 'Edit',
       name: { en: 'Flatten PDF', el: 'Κλείδωμα PDF (flatten)' },
       desc: { en: 'Merge form fields and annotations into the page so they can’t be edited.', el: 'Ενσωματώστε πεδία φορμών και σχόλια στη σελίδα ώστε να μην αλλάζουν.' },
       action: { en: 'Flatten PDF', el: 'Κλείδωμα' },

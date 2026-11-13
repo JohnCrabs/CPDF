@@ -71,7 +71,7 @@
       },
     },
     {
-      id: 'pdf-to-word', icon: 'word', color: '#2563eb', category: 'Convert', isNew: true,
+      id: 'pdf-to-word', icon: 'word', color: '#2563eb', category: 'Convert',
       name: { en: 'PDF to Word', el: 'PDF σε Word' },
       desc: { en: 'Convert PDFs into editable DOCX documents.', el: 'Μετατρέψτε PDF σε επεξεργάσιμα έγγραφα DOCX.' },
       action: { en: 'Convert to Word', el: 'Μετατροπή σε Word' },
@@ -99,7 +99,7 @@
       },
     },
     {
-      id: 'office-to-pdf', icon: 'word', color: '#1d4ed8', category: 'Convert', isNew: true, requires: 'libreoffice',
+      id: 'office-to-pdf', icon: 'word', color: '#1d4ed8', category: 'Convert', requires: 'libreoffice',
       name: { en: 'Office to PDF', el: 'Office σε PDF' },
       desc: { en: 'Convert Word, Excel, PowerPoint and OpenDocument files to PDF.', el: 'Μετατρέψτε αρχεία Word, Excel, PowerPoint και OpenDocument σε PDF.' },
       action: { en: 'Convert to PDF', el: 'Μετατροπή σε PDF' },

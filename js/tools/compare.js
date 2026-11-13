@@ -81,7 +81,7 @@
   }
 
   PDFTools.register({
-    id: 'compare', icon: 'compare', color: '#0369a1', category: 'Organize', isNew: true,
+    id: 'compare', icon: 'compare', color: '#0369a1', category: 'Organize',
     name: { en: 'Compare PDF', el: 'Σύγκριση PDF' },
     desc: { en: 'Spot the differences between two versions of a document, page by page.', el: 'Βρείτε τις διαφορές ανάμεσα σε δύο εκδόσεις ενός εγγράφου, σελίδα προς σελίδα.' },
     action: { en: 'Compare', el: 'Σύγκριση' },

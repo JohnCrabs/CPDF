@@ -82,7 +82,7 @@
       },
     },
     {
-      id: 'grayscale', icon: 'palette', color: '#52525b', category: 'Optimize', isNew: true,
+      id: 'grayscale', icon: 'palette', color: '#52525b', category: 'Optimize',
       name: { en: 'Grayscale PDF', el: 'Ασπρόμαυρο PDF' },
       desc: { en: 'Convert all colors to shades of gray, e.g. for cheaper printing.', el: 'Μετατρέψτε όλα τα χρώματα σε αποχρώσεις του γκρι, π.χ. για φθηνότερη εκτύπωση.' },
       action: { en: 'Convert to grayscale', el: 'Μετατροπή' },
@@ -99,7 +99,7 @@
       },
     },
     {
-      id: 'pdfa', icon: 'archive', color: '#b45309', category: 'Optimize', isNew: true, requires: 'ghostscript',
+      id: 'pdfa', icon: 'archive', color: '#b45309', category: 'Optimize', requires: 'ghostscript',
       name: { en: 'PDF to PDF/A', el: 'PDF σε PDF/A' },
       desc: { en: 'Convert to PDF/A-2b, the ISO standard for long-term archiving.', el: 'Μετατροπή σε PDF/A-2b, το πρότυπο ISO για μακροχρόνια αρχειοθέτηση.' },
       action: { en: 'Convert to PDF/A', el: 'Μετατροπή σε PDF/A' },
@@ -109,7 +109,7 @@
       },
     },
     {
-      id: 'repair', icon: 'wrench', color: '#0f766e', category: 'Optimize', isNew: true,
+      id: 'repair', icon: 'wrench', color: '#0f766e', category: 'Optimize',
       name: { en: 'Repair PDF', el: 'Επιδιόρθωση PDF' },
       desc: { en: 'Fix damaged or corrupted PDFs that won’t open properly.', el: 'Διορθώστε κατεστραμμένα PDF που δεν ανοίγουν σωστά.' },
       action: { en: 'Repair PDF', el: 'Επιδιόρθωση' },

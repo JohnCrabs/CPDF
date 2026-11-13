@@ -11,7 +11,7 @@
 
   PDFTools.register(
     {
-      id: 'protect', icon: 'lock', color: '#dc3e42', category: 'Security', isNew: true,
+      id: 'protect', icon: 'lock', color: '#dc3e42', category: 'Security',
       name: { en: 'Protect PDF', el: 'Κλείδωμα PDF' },
       desc: { en: 'Encrypt a PDF with a password (AES-256) and restrict printing or copying.', el: 'Κρυπτογραφήστε ένα PDF με κωδικό (AES-256) και περιορίστε την εκτύπωση ή την αντιγραφή.' },
       action: { en: 'Protect PDF', el: 'Κλείδωμα' },
@@ -47,7 +47,7 @@
       },
     },
     {
-      id: 'unlock', icon: 'unlock', color: '#7c66dc', category: 'Security', isNew: true,
+      id: 'unlock', icon: 'unlock', color: '#7c66dc', category: 'Security',
       name: { en: 'Unlock PDF', el: 'Ξεκλείδωμα PDF' },
       desc: { en: 'Remove the password and restrictions from a PDF you have access to.', el: 'Αφαιρέστε τον κωδικό και τους περιορισμούς από ένα PDF στο οποίο έχετε πρόσβαση.' },
       action: { en: 'Unlock PDF', el: 'Ξεκλείδωμα' },

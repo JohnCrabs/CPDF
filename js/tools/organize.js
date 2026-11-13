@@ -5,7 +5,7 @@
 
   PDFTools.register(
     {
-      id: 'merge', icon: 'merge', color: '#e5484d', category: 'Organize',
+      id: 'merge', icon: 'merge', color: '#e5484d', category: 'Organize', hot: true,
       name: { en: 'Merge PDF', el: 'Συγχώνευση PDF' },
       desc: { en: 'Combine several PDFs into one document, in the order you choose.', el: 'Ενώστε πολλά PDF σε ένα έγγραφο, με τη σειρά που θέλετε.' },
       action: { en: 'Merge PDF', el: 'Συγχώνευση' },
@@ -21,7 +21,7 @@
       },
     },
     {
-      id: 'split', icon: 'split', color: '#f76b15', category: 'Organize',
+      id: 'split', icon: 'split', color: '#f76b15', category: 'Organize', hot: true,
       name: { en: 'Split PDF', el: 'Διαχωρισμός PDF' },
       desc: { en: 'Separate one PDF into several files by page ranges or fixed intervals.', el: 'Χωρίστε ένα PDF σε πολλά αρχεία με εύρη σελίδων ή σταθερά διαστήματα.' },
       action: { en: 'Split PDF', el: 'Διαχωρισμός' },
@@ -116,7 +116,7 @@
       },
     },
     {
-      id: 'crop', icon: 'crop', color: '#0e7490', category: 'Organize', isNew: true,
+      id: 'crop', icon: 'crop', color: '#0e7490', category: 'Organize',
       name: { en: 'Crop PDF', el: 'Περικοπή PDF' },
       desc: { en: 'Trim page margins by drawing the area you want to keep.', el: 'Κόψτε τα περιθώρια σχεδιάζοντας την περιοχή που θέλετε να κρατήσετε.' },
       action: { en: 'Crop PDF', el: 'Περικοπή' },

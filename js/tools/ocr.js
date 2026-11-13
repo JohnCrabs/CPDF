@@ -37,7 +37,7 @@
   }
 
   PDFTools.register({
-    id: 'ocr', icon: 'scan', color: '#a16207', category: 'Convert', isNew: true,
+    id: 'ocr', icon: 'scan', color: '#a16207', category: 'Convert',
     name: { en: 'OCR PDF', el: 'OCR (αναγνώριση κειμένου)' },
     desc: { en: 'Make scanned PDFs searchable and copyable. Works offline for Greek and English.', el: 'Κάντε τα σαρωμένα PDF αναζητήσιμα και αντιγράψιμα. Λειτουργεί offline για Ελληνικά και Αγγλικά.' },
     action: { en: 'Run OCR', el: 'Εκτέλεση OCR' },

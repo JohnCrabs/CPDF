@@ -305,3 +305,4 @@
 }
 
 .text-line { transform-origin: 0 0; }
+.editor-copyright { margin-top: 28px; color: var(--muted); }

@@ -10,11 +10,14 @@
   let caps = {};
 
   const hrefOf = (tl) => tl.href || `tool.html?tool=${tl.id}`;
+  // The most used conversions come first, in this order; every other tool keeps its usual order.
+  const FIRST = ['office-to-pdf', 'pdf-to-word', 'pdf-to-excel', 'pdf-to-ppt'];
+  const rank = (tl) => (FIRST.includes(tl.id) ? FIRST.indexOf(tl.id) : FIRST.length);
 
   function badge(tl) {
     if (tl.soon) return el('span', { class: 'badge', text: L({ en: 'Coming soon', el: 'Σύντομα' }) });
     if (tl.requires && !caps[tl.requires]) return el('span', { class: 'badge', text: t(`badge.${tl.requires}`) });
-    if (tl.isNew) return el('span', { class: 'badge badge-new', text: t('badge.new') });
+    if (tl.hot) return el('span', { class: 'badge badge-hot', html: `${icon('flame', 12)}<span>${t('badge.hot')}</span>` });
     return null;
   }
 
@@ -32,7 +35,8 @@
     const q = search.value.trim().toLowerCase();
     const shown = PDFTools.list.filter((tl) =>
       (category === 'All' || tl.category === category)
-      && (!q || `${L(tl.name)} ${L(tl.desc)} ${tl.name.en} ${tl.name.el}`.toLowerCase().includes(q)));
+      && (!q || `${L(tl.name)} ${L(tl.desc)} ${tl.name.en} ${tl.name.el}`.toLowerCase().includes(q)))
+      .sort((x, y) => rank(x) - rank(y));
     grid.replaceChildren(...shown.map(card));
     if (!shown.length) grid.append(el('p', { class: 'empty', text: t('home.empty') }));
     filters.querySelectorAll('.chip').forEach((c) => {

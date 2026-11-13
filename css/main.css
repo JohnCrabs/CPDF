@@ -487,3 +487,14 @@ a.tool-card:hover {
   .topnav { display: none; }
   .topbar-prefs { margin-left: auto; }
 }
+
+.badge-hot {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #fff;
+  background: linear-gradient(135deg, #f97316, #e5484d);
+}
+
+.copyright { margin-top: 6px; font-size: 12px; }
+.footer p:first-child { margin-top: 0; }
