@@ -1,0 +1,13 @@
+# Local editor / assistant settings
+.claude/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Synology Drive
+@eaDir/
+*.SynologyWorkingDirectory
